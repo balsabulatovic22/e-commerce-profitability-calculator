@@ -18,5 +18,5 @@
   const breakPrice=priceFactor>0?nonPriceCosts/priceFactor:null;
   return {breakPrice,totalCosts,kept,failed,gross,revenue,tax,goods,delivery,packaging,fees,contribution,adCapacity,profit,margin,roas:x.ads>0?gross/x.ads:null,cpa:kept>0?x.ads/kept:null,maxCpa:kept>0&&adCapacity>0?adCapacity/kept:null,breakRoas:adCapacity>0&&gross>0?gross/adCapacity:null,perOrder:kept>0?profit/kept:null};
  }
- if(typeof module!=='undefined')module.exports={calculate,defaults}; else root.MarginMath={calculate,defaults};
+ if(typeof module!=='undefined')module.exports={calculate,defaults}; else root.ProfitabilityMath={calculate,defaults};
 })(typeof window!=='undefined'?window:globalThis);

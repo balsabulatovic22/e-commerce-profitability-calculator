@@ -1,10 +1,14 @@
-# Margin Lab
+# E-commerce Profitability Calculator
+
+**Balsa Bulatovic**
+
+[Open the calculator](https://balsabulatovic22.github.io/e-commerce-profitability-calculator/)
 
 A free, browser-based calculator for understanding e-commerce profit after products, shipping, advertising and returns.
 
 ## Why I made it
 
-Running online sales taught me that revenue and ROAS alone do not show what a business keeps. I defined Margin Lab around that practical question: **after all the costs entered, does this product make money?**
+Running online sales taught me that revenue and ROAS alone do not show what a business keeps. I defined the calculator around that practical question: **after all the costs entered, does this product make money?**
 
 This independent portfolio project was developed with AI assistance. I defined the business requirements, reviewed the assumptions and tested the tool. It is not presented as a commercial product with paying customers or measured business savings.
 
